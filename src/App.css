@@ -1,0 +1,6 @@
+/* Ẩn nút Download và Print trong PDF Viewer */
+button[data-testid="download__button"],
+button[data-testid="print__button"] {
+  display: none !important;
+  visibility: hidden !important;
+}

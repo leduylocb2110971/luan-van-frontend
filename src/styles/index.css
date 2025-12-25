@@ -1,0 +1,51 @@
+@import "antd/dist/reset.css";
+/* React-slick */
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
+
+/* Thiết lập font chữ chung */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body[data-theme="dark"] {
+  background-color: #111827;
+  color: #e5e7eb;
+}
+
+body[data-theme="dark"] a {
+  color: #93c5fd;
+}
+/* Hiệu ứng nhấp nháy cảnh báo */
+@keyframes flash-warning {
+  0% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(0.98); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+.processing-warning {
+  animation: flash-warning 2s infinite ease-in-out;
+  border: 1px solid #ffa39e;
+  background-color: #fff1f0;
+  border-radius: 8px;
+  padding: 12px;
+  margin-top: 16px;
+  text-align: center;
+  color: #cf1322;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-shadow: 0 2px 8px rgba(255, 77, 79, 0.15);
+}
+.neon-progress .ant-progress-bg {
+    background-image: linear-gradient(45deg, #eb34d7, #3461eb) !important;
+    box-shadow: 0 0 10px #3461eb, 0 0 5px #eb34d7 !important;
+    /* Animation mặc định của Antd đã có, dòng này để chỉnh tốc độ nếu thích */
+    animation: ant-progress-active 2.4s cubic-bezier(0.23, 1, 0.32, 1) infinite;
+}

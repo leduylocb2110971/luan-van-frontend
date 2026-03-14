@@ -7,7 +7,7 @@ import { useMutation } from "@tanstack/react-query";
 import { useDispatch } from "react-redux";
 import * as AuthService from "../../services/AuthService";
 import * as StudentService from "../../services/StudentService";
-import { setUser, updateUser } from "../../redux/Slice/authSlice";
+import { setUser, updateUser } from "../../redux/slice/authSlice";
 import { jwtDecode } from "jwt-decode";
 import { AuthWrapper } from "./style";
 

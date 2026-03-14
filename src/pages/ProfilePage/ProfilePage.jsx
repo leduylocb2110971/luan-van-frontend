@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { updateUser } from '../../redux/Slice/authSlice';
+import { updateUser } from '../../redux/slice/authSlice';
 import * as Messages from '../../components/Message/Message';
 import BreadCrumbComponent from '../../components/BreadCrumbComponent/BreadCrumbComponent';
 import AvatarUploadComponent from "../../components/AvatarUploadComponent/AvatarUploadComponent";

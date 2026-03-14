@@ -41,7 +41,7 @@ import AllSupervisorsPage from "../pages/SupervisorPage/AllSupervisorsPage/AllSu
 import CategoryThesisListPage from "../pages/UserPage/CategoryThesisListPage/CategoryThesisListPage";
 import UploadThesisPage from "../pages/UserPage/UploadThesisPage/UploadThesisPage";
 import ThesisListPage from "../pages/UserPage/ThesisListPage/ThesisListPage";
-import ThesisDetailPage from "../pages/UserPage/TheSisDetailPage/ThesisDetailPage";
+import ThesisDetailPage from "../pages/UserPage/ThesisDetailPage/ThesisDetailPage";
 import ViewHistoryPage from "../pages/UserPage/ViewHistoryPage/ViewHistoryPage";
 import SearchResultPage from "../pages/UserPage/SearchResultPage/SearchResultPage";
 import NotificationPage from "../pages/NotificationPage/NotificationPage";

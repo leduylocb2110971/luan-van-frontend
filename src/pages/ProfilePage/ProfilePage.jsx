@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { updateUser } from '../../redux/slice/authSlice';
 import * as Messages from '../../components/Message/Message';
-import BreadCrumbComponent from '../../components/BreadcrumbComponent/rumbComponent';
+import BreadCrumbComponent from '../../components/BreadcrumbComponent/BreadcrumbComponent';
 import AvatarUploadComponent from "../../components/AvatarUploadComponent/AvatarUploadComponent";
 import ProfileComponent from '../../components/ProfileComponent/ProfileComponent';
 import ChangePasswordComponent from '../../components/ChangePasswordComponent/ChangePasswordComponent';
